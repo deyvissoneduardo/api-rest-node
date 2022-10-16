@@ -1,9 +1,9 @@
 import './src/database';
 import express from 'express';
 import dotenv from 'dotenv';
-import homeRoutes from './src/routes/home_routes';
-import userRoutes from './src/routes/user_routes';
-import tokenRoutes from './src/routes/token_routes';
+import homeRoutes from './src/routes/homeRoutes';
+import userRoutes from './src/routes/userRoutes';
+import tokenRoutes from './src/routes/tokenRoutes';
 
 dotenv.config();
 class App {
