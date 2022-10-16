@@ -1,9 +1,9 @@
-import Student from '../models/Student';
+import Aluno from '../models/Aluno';
 
 class HomeController {
   async store(req, res) {
-    const student = await Student.create(req.body);
-    res.send(student);
+    const aluno = await Aluno.create(req.body);
+    res.send(aluno);
   }
 }
 
