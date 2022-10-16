@@ -1,3 +1,10 @@
-import Fala from './app';
+import app from './app';
 
-Fala();
+require('dotenv').config();
+
+const port = process.env.PORT;
+
+app.listen(port, () => {
+  console.log();
+  console.log(`Servidor Rodando http//localhost:${port}`);
+});
